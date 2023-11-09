@@ -15,8 +15,7 @@ CONDA_ENVIRONMENT = workshop-pysal-narsc23
 
 ## Set up python interpreter environment
 environment:
-	conda env create -f environment.yml ;\
-	pip install -e . --no-deps
+	mamba env create -f environment.yml ;\
 
 ## Update the environment in case of changes to dependencies
 environment-update:
