@@ -2,7 +2,6 @@
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/knaaptime/workshop-pysal-narsc23)
 
-
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/knaaptime/workshop-pysal-narsc23/main?urlpath=lab)
 
 Spatial Analysis and Econometrics with PySAL
@@ -22,49 +21,40 @@ Spatial Analysis and Econometrics with PySAL
 
 ## Schedule
 
-### Part 1
+###
 
-1. First Section
-   + subsection
-   + subsection
+1. Spatial Data Analysis
+   * geoprocessing & visualization
+   * spatial weights
+   * spatial autocorrelation
 
+2. Spatial Segmentation
 
-2. Second section
-
-   + subsection
-   + subsection
+   * geodemographic analysis
+   * segregation analysis
 
 ### Break
 
 ### Part 2
 
-3. Third Section
+3.Spatial Econometrics
 
-   + subsection
-   + subection
-
-4. Fourth Section
-
-   + subsection
-   + subection
-
----
-
+* cross sectional models
+* spatial regime models
+* spatial SUR models
 
 ## Getting Started
 
-**To get started immediately without installing or downloading anything, click [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/knaaptime/workshop-pysal-narsc23/main?urlpath=lab)** 
+__To get started immediately without installing or downloading anything, click [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/knaaptime/workshop-pysal-narsc23/main?urlpath=lab)__
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/knaaptime/workshop-pysal-narsc23)
 
-
-
 If you are familiar with GitHub, you should clone or fork this GitHub repository to a specific directory. Cloning can be done by:
 
-``` bash
+```bash
 git clone https://github.com/knaaptime/workshop-pysal-narsc23.git
 ```
 
-If you are not using git, you can grab the workshop materials as a zip file by pointing your browser to (https://github.com/knaaptime/workshop-pysal-narsc23.git) and clicking on the green _Clone or download_ button in the upper right. Extract the downloaded zip file to a working directory.
+If you are not using git, you can grab the workshop materials as a zip file by pointing your browser to (<https://github.com/knaaptime/workshop-pysal-narsc23.git>) and clicking on the green _Clone or download_ button in the upper right. Extract the downloaded zip file to a working directory.
 
- See the [installation instructions](installation.md) for more information on getting a python environment setup
+See the [installation instructions](installation.md) for more information on getting a python environment setup
