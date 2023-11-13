@@ -21,23 +21,23 @@ Spatial Analysis and Econometrics with PySAL
 
 ## Schedule
 
-###
+### Part 1
 
 1. Spatial Data Analysis
-   * geoprocessing & visualization
-   * spatial weights
-   * spatial autocorrelation
+* geoprocessing & visualization
+* spatial weights
+* spatial autocorrelation
 
 2. Spatial Segmentation
 
-   * geodemographic analysis
-   * segregation analysis
+* geodemographic analysis
+* segregation analysis
 
 ### Break
 
 ### Part 2
 
-3.Spatial Econometrics
+3. Spatial Econometrics
 
 * cross sectional models
 * spatial regime models
