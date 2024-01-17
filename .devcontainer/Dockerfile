@@ -9,7 +9,7 @@ RUN if [ "${NODE_VERSION}" != "none" ]; then su vscode -c "umask 0002 && . /usr/
 COPY environment.yml* .devcontainer/noop.txt /tmp/conda-tmp/
 RUN if [ -f "/tmp/conda-tmp/environment.yml" ]; then umask 0002 && conda install conda-forge::conda-libmamba-solver -y && /opt/conda/bin/conda env update -n base -f /tmp/conda-tmp/environment.yml --solver=libmamba; fi \
     && rm -rf /tmp/conda-tmp
-RUN conda config --prepend channels; conda clean --all
+RUN conda config --prepend channels conda-forge; conda clean --all
 RUN apt-get update && apt-get install build-essential
 
 # [Optional] Uncomment to install a different version of Python than the default
