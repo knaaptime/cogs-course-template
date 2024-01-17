@@ -7,7 +7,7 @@ Course Name Goes Here
 
 
 <p align="center">
-<img height=260 src='docs/figs/pysal_logo.png' >
+<img height=260 src='figures/logo.png'>
 </p>
 
 ## Getting Started
