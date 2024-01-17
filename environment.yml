@@ -1,4 +1,4 @@
-name: workshop-pysal-narsc23
+name: cogs-course
 channels:
   - conda-forge
   - defaults
